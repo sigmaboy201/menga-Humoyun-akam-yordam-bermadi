@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://www.pcinvasion.com/wp-content/uploads/2019/10/PUBG-Lite-Launch.jpg?fit=1024%2C683');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Nosifer", serif;
+    color: yellow;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    gap: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: yellow;
+}
+
+button {
+    background-color: greenyellow;
+    width: 692px;
+    height: 119px;
+    font-size: 48px;
+    font-weight: bold;
+    border: 11px solid black;
+    font-family: Irish grover , serif;
+    margin: auto;
+    margin-top: 576px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: auto;
+}
+
+a:hover {
+    color: red;
+}
